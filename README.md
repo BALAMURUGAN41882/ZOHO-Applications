@@ -1,34 +1,19 @@
 # ZOHO-Applications
 ZOHO Application development (Hyper loop passenger booking system)
+# Description:
+java
+<br/> CREATING A GRAPH <br/> ADDING THE EDGES TO THE GRAPH  <br/> FIND MAXAGE IN THE QUEUE <br/> PRINT THE SHORTEST PATH TO THE DESTINATION <br/> PRINT THE NUMBER OF ELEMENTS IN THE QUEUE <br/> PRINT THE OBJECT IN A LIST<br/> ADDING THE EDGES TO THE GRAPH WHILE GETTING FROM USER ITSELF <br/>THE LOOP RUNS DEPEND UPON USER INPUTS <br/>THE LOOP RUNS DEPEND UPON USER INPUTS <br/>FUNCTION CALL TO PRINT OLDEST AGE'S SHORTEST PATH <br/>PRINT THE REMAINING OBJECT IN THE QUEUE<br/> 
+<br/> PASSENGER CLASS TO HOLD PASSENGER  DATA <br/> CONSTRUCTOR TO SAVE THE OBJECTS<br/> <br/> 
+GRAPH CLASS TO ARRANGE DATA <br/> CREATING A GRAPH <br/> ADDING THE EDGES TO THE GRAPH <br/> FIRST SELECT THE POSIBLE PATH AND SELECT THE SHORTEST PATH IS IN BELOW FUNCTION<br/> 
+![](image/image.png "Title")
 
-![]("Title")
-
-```java
-// Passenger class to hold passengers data
-
-public class Passenger{
-	int age;
-	String name;
-	char destination;
-	public Passenger(int age, String name, char destination)//CONSTRUCTOR TO SAVE THE OBJECTS
-	{
-		super();
-		this.age = age;
-		this.name = name;
-		this.destination = destination;
-	}
-	public String toString() {
-		return name+" "+age;
-	}
-}
-```
 
 ### Compiling Source Code
 ```console
-foo@abc-$ javac Main.java Passenger.java Graph.java
+foo@bar-$ javac Main.java Passenger.java Graph.java
 ```
 
 ### Executing files
 ```console
-foo@abc-$ java Main
+foo@bar-$ java Main
 ```
